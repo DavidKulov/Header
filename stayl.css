@@ -1,0 +1,313 @@
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../shapkaaa/fonts/open-sans-v27-latin_cyrillic-regular.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../shapkaaa/fonts/open-sans-v27-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  } 
+  /* open-sans-600 - latin_cyrillic */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../shapkaaa/fonts/open-sans-v27-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../shapkaaa/fonts/open-sans-v27-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../shapkaaa/fonts/open-sans-v27-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../shapkaaa/fonts/open-sans-v27-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+body{
+    width: 1920px;
+}
+.wrapper{
+    width: auto;
+    height: 36px;
+    background-color:  #F8F8F8;
+    margin-bottom: 34px;
+}
+.container{
+    max-width: 1122px;
+    margin: 0 auto;
+}
+.navig_one{
+    max-width: 1122px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+    align-items: center;
+}
+.navig_one a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1D1D1B;
+}
+.navid_link{
+    padding-left: 15px;
+}
+.link-one img{
+    padding-left: 5px;
+}
+.link-text-one{
+    padding-left: 12px;
+}
+.link-two{
+    margin-left: 100px;
+}
+.link-three{
+    margin-left: 24px;
+}
+.link-three img{
+    padding-left: 11px;
+}
+.link-four{
+    margin-left: 26px;
+}
+.link-four img{
+    padding-left: 11px;
+}
+.navig_one p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #696969;
+    padding-left: 366px;
+}
+.navig_one p a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #696969;
+}
+/*start center*/
+.center{
+    display: flex;
+    align-items: center;
+    margin-bottom: 26.5px;
+}
+.logo{
+    position: relative;
+    top:2px;
+    left: 1px;
+}
+.wrapper-poisk{
+    padding-left: 56px;
+}
+.input{
+    width: 339px;
+    height: 12px;
+    border: 1px solid #D5D5D5;
+    border-radius: 3px 0px 0px 3px;
+    border-right: none;
+    padding-left: 16px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+.poisk-buttom{
+    background-color: #E0001B;
+    width: 56px;
+    height: 48px;
+    border-radius:0px 3px 3px 0px;
+    border: none;
+    position: relative;
+    left: -5px;
+    top: -1.5px;
+}
+div button{
+    border: none;
+    border-radius: 3px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+.button_center:hover{
+    background-color: #f6f6f6;
+}
+.button_center-one{
+    width: 182px;
+    height: 48px;
+    margin-left: 40px;
+}
+.button_center-two{
+    width: 140px;
+    height: 48px;
+}
+.button_center-fhree{
+    width: 150px;
+    height: 48px;
+}
+.img_center-one{
+    position: relative;
+    left: -10px;
+    top: -3px
+}
+.img_center-two{
+    position: relative;
+    left: -3px;
+    top: -2px
+}
+.img_center-fhree{
+    position: relative;
+    left: -3px;
+    top: -2px
+}
+.red-ball{
+    display: inline-block;
+    background-color: #E0001B;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.ball-one{
+    position: relative;
+    left: 12.5px;
+    top: -3px;
+}
+.ball-two{
+    position: relative;
+    left: 19.8px;
+    top: -2.5px;
+}
+.numb-ball{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    position: relative;
+    top: -1.7px;
+}
+.numb-two{
+    top: -1.5px;
+}
+.button-text-one{
+    position: relative;    
+    left: 5px;
+}
+.button-text-two{
+    position: relative;
+    left: 9px;
+}
+/*end center*/
+/*start end*/
+.end{
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    display: flex;   
+}
+.catalog{
+    background-color: #E0001B;
+    border-radius: 3px 0 0 3px;
+    height: 48px;
+    color:white;
+    display: inline-flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding-right: 21px;
+    padding-left: 15px;
+    margin-left: 1px;
+}
+.catalog > span
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.navig_two{
+    display: flex;
+    background-color: #fafafa;;
+    line-height: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 48px
+}
+.red_text-end{
+    color: #E0001B;
+    font-style: normal;
+    font-weight: 600;
+}
+.link-catalog{
+    text-decoration: none;
+    color: #1D1D1B;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.link-catalog:hover{
+    background-color: #f6f6f6;
+}
+.wrapper-catalog{
+    display: inline-block;
+    padding-left: 21px;
+    padding-right: 13px;
+    vertical-align: middle;
+}
+.one{
+    position: relative;
+    left: 3px;
+}
+.one span{
+    padding-left: 4px;
+}
+.two{
+    position: relative;
+    left: 1px; 
+}
+.two span{
+    padding-left: 4px;
+}
+.fhree span{
+    padding-left: 4px;
+}
+.four{
+    position: relative;
+    left: -2px;
+}
+.four span{
+    padding-left: 4px;
+}
+.five{
+    position: relative;
+    left: -4px;
+}
+.five span{
+    padding-left: 4px;
+}
+.four::after{
+    content: '';
+    height: 30px;
+    width: 1px;
+    background-color: #f6f6f6;
+    position: absolute;
+    right: 3px;
+    top: -7px;
+}
+/*ending end*/
