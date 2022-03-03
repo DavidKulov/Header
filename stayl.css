@@ -26,7 +26,7 @@
          url('../shapkaaa/fonts/open-sans-v27-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 body{
-    width: 1920px;
+    /*width: 1920px; из за него скролл*/
 }
 .wrapper{
     width: auto;
@@ -71,12 +71,16 @@ body{
 }
 .link-three img{
     padding-left: 11px;
+    position: relative;
+    top: -2px;
 }
 .link-four{
     margin-left: 26px;
 }
 .link-four img{
     padding-left: 11px;
+    position: relative;
+    top: -2px;
 }
 .navig_one p{
     font-family: 'Open Sans';
@@ -101,12 +105,12 @@ body{
 }
 .logo{
     position: relative;
-    top:2px;
+    top: 3px;
     left: 1px;
 }
 .wrapper-poisk{
     display: flex;
-    padding-left: 56px;
+    padding-left: 57px;
 }
 .input{
     width: 338px;
@@ -114,7 +118,7 @@ body{
     border: 1px solid #D5D5D5;
     border-radius: 3px 0px 0px 3px;
     border-right: none;
-    padding-left: 16px;
+    padding-left: 15px;
     padding-top: 17px;
     padding-bottom: 17px;
     font-family: 'Open Sans';
@@ -126,7 +130,7 @@ body{
     background-color: #E0001B;
     width: 56px;
     height: 48px;
-    border-radius:0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px;
     border: none;
 }
 div button{
@@ -145,6 +149,7 @@ div button{
     width: 182px;
     height: 48px;
     margin-left: 45px;
+    position: relative;
 }
 .button_center-two{
     width: 140px;
@@ -153,39 +158,22 @@ div button{
 .button_center-fhree{
     width: 150px;
     height: 48px;
+    position: relative;
 }
 .img_center-one{
     position: relative;
-    left: -10px;
-    top: -3px
+    left: -21px;;
+    top: -1.7px;
 }
 .img_center-two{
     position: relative;
     left: -3px;
-    top: -2px
+    top: -1px;
 }
 .img_center-fhree{
     position: relative;
-    left: -3px;
-    top: -2px
-}
-.red-ball{
-    display: inline-block;
-    background-color: #E0001B;
-    width: 17px;
-    height: 17px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-.ball-one{
-    position: relative;
-    left: 12.5px;
-    top: -3px;
-}
-.ball-two{
-    position: relative;
-    left: 19.8px;
-    top: -2.5px;
+    left: -12px;
+    top: -1px;
 }
 .numb-ball{
     font-family: 'Open Sans';
@@ -199,13 +187,41 @@ div button{
 .numb-two{
     top: -1.5px;
 }
+.center_red-numb{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #E0001B;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+.center-fhree{
+    position: absolute;
+    left: 150px;
+    top: 14px;
+}
+.center-seven{
+    position: absolute;
+    left: 132px;
+    top: 14px;
+}
 .button-text-one{
+    position: relative;    
+    left: -10px;
+}
+.button-text-two{
     position: relative;    
     left: 5px;
 }
-.button-text-two{
+.button-text-fhree{
     position: relative;
-    left: 9px;
+    left: -2px;
 }
 /*end center*/
 /*start end*/
