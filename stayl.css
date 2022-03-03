@@ -97,7 +97,7 @@ body{
 .center{
     display: flex;
     align-items: center;
-    margin-bottom: 26.5px;
+    margin-bottom: 28.5px;
 }
 .logo{
     position: relative;
@@ -105,10 +105,11 @@ body{
     left: 1px;
 }
 .wrapper-poisk{
+    display: flex;
     padding-left: 56px;
 }
 .input{
-    width: 339px;
+    width: 338px;
     height: 12px;
     border: 1px solid #D5D5D5;
     border-radius: 3px 0px 0px 3px;
@@ -120,15 +121,13 @@ body{
     font-size: 14px;
     letter-spacing: 0.05em;
 }
+
 .poisk-buttom{
     background-color: #E0001B;
     width: 56px;
     height: 48px;
     border-radius:0px 3px 3px 0px;
     border: none;
-    position: relative;
-    left: -5px;
-    top: -1.5px;
 }
 div button{
     border: none;
@@ -145,7 +144,7 @@ div button{
 .button_center-one{
     width: 182px;
     height: 48px;
-    margin-left: 40px;
+    margin-left: 45px;
 }
 .button_center-two{
     width: 140px;
